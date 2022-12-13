@@ -1,5 +1,5 @@
 export const state = () => ({
-  loginRedirect: '/specifications/list',
+  loginRedirect: '/',
   snackbar: null,
 })
 
