@@ -1,10 +1,7 @@
 <template>
-  <v-card>
-    <v-card-title>{{$t('Let me know')}}</v-card-title>
-    <v-card-text>
-
-    </v-card-text>
-  </v-card>
+  <div class="index-logo">
+    <img src="/schroedinger-cat.svg"/>
+  </div>
 </template>
 
 <script>
@@ -35,3 +32,13 @@ export default {
 
 }
 </script>
+
+<style lang="sass">
+.index-logo
+  //border: 1px solid red
+  background: black
+  width: 100%
+  display: flex
+  align-items: center
+  justify-content: center
+</style>
